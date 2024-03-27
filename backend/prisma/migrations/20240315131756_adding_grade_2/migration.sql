@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "PeopleResearchs" ALTER COLUMN "grade" DROP NOT NULL,
+ALTER COLUMN "grade" DROP DEFAULT;

@@ -1,0 +1,101 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+     execution: local
+        script: load_test_C.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1000 max VUs, 15m30s max duration (incl. graceful stop):
+              * default: 1000 looping VUs for 15m0s (gracefulStop: 30s)
+
+
+running (00m01.0s), 1000/1000 VUs, 1410 complete and 0 interrupted iterations
+default   [   0% ] 1000 VUs  00m01.0s/15m0s
+
+running (00m02.0s), 1000/1000 VUs, 2049 complete and 0 interrupted iterations
+default   [   0% ] 1000 VUs  00m02.0s/15m0s
+
+running (00m03.0s), 1000/1000 VUs, 2381 complete and 0 interrupted iterations
+default   [   0% ] 1000 VUs  00m03.0s/15m0s
+
+running (00m04.0s), 1000/1000 VUs, 2634 complete and 0 interrupted iterations
+default   [   0% ] 1000 VUs  00m04.0s/15m0s
+
+running (00m05.0s), 1000/1000 VUs, 2727 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m05.0s/15m0s
+
+running (00m06.0s), 1000/1000 VUs, 2822 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m06.0s/15m0s
+
+running (00m07.0s), 1000/1000 VUs, 2903 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m07.0s/15m0s
+
+running (00m08.0s), 1000/1000 VUs, 3006 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m08.0s/15m0s
+
+running (00m09.0s), 1000/1000 VUs, 3102 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m09.0s/15m0s
+
+running (00m10.0s), 1000/1000 VUs, 3211 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m10.0s/15m0s
+
+running (00m11.0s), 1000/1000 VUs, 3333 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m11.0s/15m0s
+
+running (00m12.0s), 1000/1000 VUs, 3501 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m12.0s/15m0s
+
+running (00m13.0s), 1000/1000 VUs, 3672 complete and 0 interrupted iterations
+default   [   1% ] 1000 VUs  00m13.0s/15m0s
+
+running (00m14.0s), 1000/1000 VUs, 3812 complete and 0 interrupted iterations
+default   [   2% ] 1000 VUs  00m14.0s/15m0s
+
+running (00m15.0s), 1000/1000 VUs, 3991 complete and 0 interrupted iterations
+default   [   2% ] 1000 VUs  00m15.0s/15m0s
+
+running (00m16.0s), 1000/1000 VUs, 4197 complete and 0 interrupted iterations
+default   [   2% ] 1000 VUs  00m16.0s/15m0s
+
+running (00m17.0s), 1000/1000 VUs, 4360 complete and 0 interrupted iterations
+default   [   2% ] 1000 VUs  00m17.0s/15m0s
+
+     █ Upload Research
+
+     █ Get Research Status
+
+     █ Delete Research
+
+     █ Update Research
+
+     █ Vote Research
+
+     █ Get All Researches
+
+     █ Distribute Research
+
+     data_received..................: 6.3 MB 352 kB/s
+     data_sent......................: 3.6 MB 199 kB/s
+     group_duration.................: avg=1.22s    min=267.58µs med=76.9ms  max=16.22s p(90)=2.6s     p(95)=10.42s  
+     http_req_blocked...............: avg=409.47ms min=0s       med=1µs     max=13.69s p(90)=579.72ms p(95)=1.43s   
+     http_req_connecting............: avg=409.45ms min=0s       med=0s      max=13.69s p(90)=579.7ms  p(95)=1.43s   
+     http_req_duration..............: avg=802.24ms min=0s       med=52.81ms max=13.16s p(90)=1.16s    p(95)=7.72s   
+       { expected_response:true }...: avg=417.75ms min=4.14ms   med=48.07ms max=10.96s p(90)=130.82ms p(95)=261.04ms
+     http_req_failed................: 77.12% ✓ 8092       ✗ 2400  
+     http_req_receiving.............: avg=9.46µs   min=0s       med=9µs     max=738µs  p(90)=18µs     p(95)=24µs    
+     http_req_sending...............: avg=77.31µs  min=0s       med=5µs     max=14.9ms p(90)=50µs     p(95)=293µs   
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s      max=0s     p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=802.16ms min=0s       med=52.79ms max=13.16s p(90)=1.16s    p(95)=7.72s   
+     http_reqs......................: 10492  589.018312/s
+     iteration_duration.............: avg=1.79s    min=273.41µs med=1.03s   max=16.22s p(90)=3.06s    p(95)=9.77s   
+     iterations.....................: 4471   251.000846/s
+     vus............................: 1000   min=1000     max=1000
+     vus_max........................: 1000   min=1000     max=1000
+
+
+running (00m17.8s), 0000/1000 VUs, 4471 complete and 6210 interrupted iterations
+default ✗ [   2% ] 1000 VUs  00m17.8s/15m0s
